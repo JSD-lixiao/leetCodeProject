@@ -1,6 +1,5 @@
 package modules.adapter;
 
-import lombok.Data;
 
 /**
  * @author lixiao
