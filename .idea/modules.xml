@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeProject.iml" filepath="$PROJECT_DIR$/LeetCodeProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/leetcode/editor/connectionpool.iml" filepath="$PROJECT_DIR$/src/leetcode/editor/connectionpool.iml" />
+    </modules>
+  </component>
+</project>
