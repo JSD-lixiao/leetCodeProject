@@ -5,9 +5,9 @@ package modules.compostite;
  * @version 1.0
  * @date 2020/6/2 14:38
  */
-public class Left extends Component{
+public class Leaf extends Component{
 
-    public Left(String name) {
+    public Leaf(String name) {
         super(name);
     }
 
