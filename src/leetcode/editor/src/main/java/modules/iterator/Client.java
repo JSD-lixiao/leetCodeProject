@@ -16,6 +16,7 @@ public class Client {
         ConcreteAggregate aggregate = new ConcreteAggregate();
         Iterator iterator = aggregate.createIterator();
         List<String> list = new ArrayList<>();
+        list.iterator();
         list.add("tom");
         list.add("jack");
         list.add("jkflaslf");
