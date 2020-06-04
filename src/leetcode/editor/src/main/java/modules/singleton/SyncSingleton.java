@@ -1,6 +1,7 @@
 package modules.singleton;
 
 /**
+ * 双重检查锁生成单例，应对多线程模式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/3 14:57

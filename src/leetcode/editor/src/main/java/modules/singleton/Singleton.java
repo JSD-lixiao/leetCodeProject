@@ -1,6 +1,7 @@
 package modules.singleton;
 
 /**
+ * 普通单例模式，饱汉式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/3 14:42
