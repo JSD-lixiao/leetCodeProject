@@ -22,5 +22,6 @@ public class Client {
        for (int i = 1; i <= 100; i++) {
            threadPoolExecutor.execute(new QueryTest());
         }
+        threadPoolExecutor.shutdown();
     }
 }

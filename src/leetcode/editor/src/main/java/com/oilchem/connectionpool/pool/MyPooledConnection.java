@@ -1,5 +1,6 @@
 package com.oilchem.connectionpool.pool;
 
+import java.io.Closeable;
 import java.sql.*;
 
 /**
@@ -7,7 +8,7 @@ import java.sql.*;
  * @version 1.0
  * @date 2020/4/29 10:27
  */
-public class MyPooledConnection {
+public class MyPooledConnection implements Closeable {
 
     private Connection connection;
     private Boolean isBusy;
@@ -38,6 +39,7 @@ public class MyPooledConnection {
         isBusy = busy;
     }
 
+    @Override
     public void close() {
         this.isBusy = false;
     }

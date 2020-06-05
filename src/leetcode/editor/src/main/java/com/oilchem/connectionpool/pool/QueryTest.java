@@ -12,15 +12,9 @@ public class QueryTest implements Runnable {
 
     @Override
     public void run() {
-        MyPooledConnection myPooledConnection = myPool.getPooledConnection();
-        ResultSet resultSet = myPooledConnection.query("select * from basedata_organization limit 10");
-        try {
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString("name") + ","
-                        + resultSet.getString("code") +
-                        ",使用管道：" + myPooledConnection.getConnection());
-            }
-            myPooledConnection.close();
+        try (MyPooledConnection myPooledConnection = myPool.getPooledConnection()){
+            myPooledConnection.query("select * from basedata_organization limit 10");
+            System.out.println("当前线程："+Thread.currentThread().getName()+"使用管道："+myPooledConnection.getConnection());
         } catch (Exception e) {
             e.printStackTrace();
         }

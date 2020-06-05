@@ -1,8 +1,5 @@
 package com.oilchem.connectionpool.pool;
 
-
-import java.util.Arrays;
-
 /**
  * @author lixiao
  * @version 1.0
