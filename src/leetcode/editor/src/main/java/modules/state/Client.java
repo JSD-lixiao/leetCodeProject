@@ -1,6 +1,7 @@
 package modules.state;
 
 /**
+ * 状态模式
  * @author lixiao
  * @version 1.0
  * @date 2020/5/27 14:59

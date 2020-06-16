@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 迭代器模式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/3 13:44

@@ -1,6 +1,7 @@
 package modules.chain;
 
 /**
+ * 责任链模式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/9 9:48

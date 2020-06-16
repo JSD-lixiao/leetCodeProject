@@ -2,6 +2,7 @@ package modules.decorate;
 
 
 /**
+ * 装饰器模式
  * @author lixiao
  * @version 1.0
  * @decription 装饰器模式客户端

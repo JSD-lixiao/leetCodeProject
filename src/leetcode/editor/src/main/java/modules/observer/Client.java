@@ -1,6 +1,7 @@
 package modules.observer;
 
 /**
+ * 观察者模式
  * @author lixiao
  * @version 1.0
  * @date 2020/5/16 9:10

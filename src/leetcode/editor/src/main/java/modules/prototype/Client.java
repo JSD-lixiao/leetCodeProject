@@ -1,6 +1,7 @@
 package modules.prototype;
 
 /**
+ * 原型模式
  * @author lixiao
  * @version 1.0
  * @description 原型模式客户端

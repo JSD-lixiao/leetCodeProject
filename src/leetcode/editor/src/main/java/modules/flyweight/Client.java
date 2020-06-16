@@ -1,5 +1,10 @@
 package modules.flyweight;
 
+/**
+* 享元模式
+ * @author lixiao
+ * @date 2020/6/16
+*/
 public class Client {
     public static void main(String[] args) {
         int ext = 22;

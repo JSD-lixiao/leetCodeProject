@@ -1,6 +1,7 @@
 package modules.adapter;
 
 /**
+ * 适配器模式
  * @author lixiao
  * @version 1.0
  * @date 2020/5/27 16:35

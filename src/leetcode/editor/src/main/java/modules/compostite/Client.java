@@ -1,6 +1,7 @@
 package modules.compostite;
 
 /**
+ * 组合模式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/2 14:29

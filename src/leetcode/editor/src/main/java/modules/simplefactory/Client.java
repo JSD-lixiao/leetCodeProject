@@ -4,6 +4,7 @@ package modules.simplefactory;
 import modules.simplefactory.enums.PayEnums;
 
 /**
+ * 简单工厂模式
  * @author lixiao
  * @version 1.0
  * @description 简单工厂模式客户端

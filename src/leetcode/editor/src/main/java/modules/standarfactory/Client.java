@@ -1,6 +1,7 @@
 package modules.standarfactory;
 
 /**
+ * 标准工厂模式
  * @author lixiao
  * @version 1.0
  * @description 工厂模式客户端

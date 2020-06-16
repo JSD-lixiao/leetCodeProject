@@ -1,6 +1,7 @@
 package modules.mediator;
 
 /**
+ * 中介者模式
  * @author lixiao
  * @version 1.0
  * @date 2020/6/9 10:20
