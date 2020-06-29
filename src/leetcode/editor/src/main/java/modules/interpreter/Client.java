@@ -36,7 +36,6 @@ public class Client {
                         break;
                     default:
                 }
-
                 expression.interpret(playContext);
             }
         } catch (Exception e) {
